@@ -1,0 +1,7 @@
+<script>start("/Users/jgongora/Documents/CURSOS/DevOps/Kubernetes/deployments/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("postgresdp.yml","postgresdp.yml",0,617,"617 B",1737734657,"24/01/25, 11:04:17 a.m.");</script>
+<script>addRow("redisdp.yml","redisdp.yml",0,421,"421 B",1737734655,"24/01/25, 11:04:15 a.m.");</script>
+<script>addRow("resultdp.yml","resultdp.yml",0,457,"457 B",1737734776,"24/01/25, 11:06:16 a.m.");</script>
+<script>addRow("votedp.yml","votedp.yml",0,443,"443 B",1737734723,"24/01/25, 11:05:23 a.m.");</script>
+<script>addRow("workerdp.yml","workerdp.yml",0,391,"391 B",1737734656,"24/01/25, 11:04:16 a.m.");</script>
