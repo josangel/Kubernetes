@@ -7,7 +7,7 @@ metadata:
 spec: 
   replicas: 1
   selector:
-    matchLables:
+    matchLabels:
       name: redis
       app: app-voting
   template:
@@ -19,7 +19,7 @@ spec:
     spec: 
       containers:
       - name: redis
-        iamge: redis
+        image: redis
         ports:
         - containerPort: 6379
           name: redis

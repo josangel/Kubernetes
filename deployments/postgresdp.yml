@@ -2,12 +2,12 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: db
-  labels: 
+  labels:
     app: app-voting
-spec: 
+spec:
   replicas: 1
   selector:
-    matchLables:
+    matchLabels:
       name: db
       app: app-voting
   template:
@@ -16,13 +16,13 @@ spec:
       labels:
         name: db
         app: app-voting
-    spec: 
+    spec:
       containers:
       - name: postgres
-        iamge: postgres:9.4
+        image: postgres:9.4
         env: 
         - name: POSTGRES_USER
-          value: postgres
+          value: postgres 
         - name: POSTGRES_PASSWORD
           value: postgres
         - name: POSTGRES_HOST_AUTH_METHOD

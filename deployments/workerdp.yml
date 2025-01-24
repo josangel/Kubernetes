@@ -7,7 +7,7 @@ metadata:
 spec: 
   replicas: 1
   selector:
-    matchLables:
+    matchLabels:
       name: worker
       app: app-voting
   template:
@@ -19,4 +19,4 @@ spec:
     spec: 
       containers:
       - name: worker
-        iamge: dockersamples/examplevotingapp_worker
+        image: dockersamples/examplevotingapp_worker
